@@ -1,0 +1,11 @@
+:root {
+  --fontweight-extralight: 200;
+  --fontweight-light: 300;
+  --fontweight-book: 400;
+  --fontweight-regular: 400;
+  --fontweight-medium: 500;
+  --fontweight-semibold: 600;
+  --fontweight-bold: 700;
+  --fontweight-extrabold: 800;
+  --fontweight-black: 900;
+}
