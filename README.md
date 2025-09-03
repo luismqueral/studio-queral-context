@@ -35,7 +35,8 @@ Centralized resource for design system documentation, brand-compliant prototypin
 ├── logos/                    # Brand logos and icons
 ├── misc context/             # Brand guidelines and UX documentation
 ├── misc tokens/              # Design token definitions
-└── nyt-tachyons/            # Atomic CSS framework
+├── nyt-tachyons/            # Atomic CSS framework
+└── prompts/                 # Example prompts for generative design tools
 ```
 
 ## Contributing
