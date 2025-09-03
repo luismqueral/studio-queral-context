@@ -1,5 +1,8 @@
 # Generative Product Design Context
 
+> **⚠️ Working Draft Notice**  
+> This repository is an unstable, working draft and will be continually revised. Content, structure, and assets may change frequently as the design system evolves. Use with caution in production environments.
+
 Design system context repository for The New York Times containing fonts, logos, design tokens, and styling frameworks.
 
 ## Contents
