@@ -1,0 +1,17 @@
+Design a flexible card grid system component for article previews using NYT design tokens.
+
+Design system references:
+- Headlines: Karnak condensed (fonts/karnak-cond/karnak-cond-normal-600.woff2)
+- Metadata text: Franklin small (fonts/franklin-small/franklin-small-normal-500.woff2)
+- Body preview: Imperial regular (fonts/imperial/imperial-normal-400.woff2)
+- Color scheme: Light theme tokens (misc tokens/tpl-color-tokens-light.css)
+- Typography scale: Reference misc tokens/tpl-typography.css for consistent sizing
+- Spacing: Use size tokens from misc tokens/tpl-size-tokens.css
+
+Grid requirements:
+- Responsive breakpoints using NYT Tachyons grid system
+- Cards should have consistent aspect ratios and spacing
+- Hover effects that maintain brand consistency
+- Support for featured articles with larger card sizes
+- Accessible focus states and semantic markup
+- Follow UX principles outlined in misc context/ux-tenents.md

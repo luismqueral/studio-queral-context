@@ -1,0 +1,13 @@
+Create a React component for article layout that uses NYT design system assets from this repository.
+
+Requirements:
+- Use Cheltenham typeface for headlines (fonts/cheltenham/cheltenham-normal-700.woff2)
+- Use Franklin for body text (fonts/franklin/franklin-normal-400.woff2)
+- Apply color tokens from misc tokens/tpl-color-tokens-light.css for light theme
+- Reference typography tokens from misc tokens/tpl-typography.css for consistent spacing
+- Include NYT logo from logos/New_York_Times_T_icon.svg
+- Follow brand guidelines from misc context/brand-book.html
+- Use Tachyons utility classes from nyt-tachyons/ for responsive layout
+- Ensure accessibility compliance per UX tenets in misc context/ux-tenents.md
+
+Component should be mobile-first responsive with proper semantic HTML structure.

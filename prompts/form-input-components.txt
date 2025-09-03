@@ -1,0 +1,21 @@
+Create form input components (text field, select, button) following NYT design system patterns.
+
+Typography references:
+- Input labels: Franklin medium (fonts/franklin/franklin-normal-500.woff2)
+- Input text: Franklin regular (fonts/franklin/franklin-normal-400.woff2)
+- Button text: Franklin semibold (fonts/franklin/franklin-normal-600.woff2)
+- Error messages: Franklin small (fonts/franklin-small/franklin-small-normal-500.woff2)
+
+Styling tokens:
+- Form colors from misc tokens/ink_semantic-colors-default-(light).css
+- Input sizing from misc tokens/tpl-size-tokens.css
+- Focus states using semantic color tokens
+- Error states with appropriate color contrast ratios
+
+Component specifications:
+- Floating label animation for text inputs
+- Consistent border radius and padding using Tachyons utilities
+- Disabled and error state styling
+- Proper ARIA labeling and keyboard navigation
+- Brand-compliant button styles with hover and active states
+- Form validation messaging that follows UX guidelines
