@@ -1,6 +1,6 @@
 # Generative Product Design Context
 
-> ⚠️ This repository is an unstable, working draft and will be continually revised. Content, structure, and assets may change frequently as the design system evolves. Use with caution in production environments.
+> ⚠️ This repository is experimental as Product Design continues to evolve its craft around generative tools like Cursor Figma Make. Do not use this in production environments, only use it for interactive sketches and prototypes.
 
 Design system context repository for The New York Times containing fonts, logos, design tokens, and styling frameworks.
 
