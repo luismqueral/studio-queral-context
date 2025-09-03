@@ -1,8 +1,6 @@
 # Generative Product Design Context
 
-> ⚠️ This repository is experimental as Product Design continues to evolve its craft around generative tools like Cursor Figma Make. Do not use this in production environments, only use it for interactive sketches and prototypes.
-
-Design system context repository for The New York Times containing fonts, logos, design tokens, and styling frameworks.
+> ⚠️ This is an experimental repository used for interactive sketches and prototypes. Do NOT use this for production.
 
 ## Contents
 
@@ -26,10 +24,6 @@ Design system context repository for The New York Times containing fonts, logos,
 - NYT Tachyons atomic CSS framework
 - Pre-built utility classes for rapid prototyping
 
-## Usage
-
-Centralized resource for design system documentation, brand-compliant prototyping, generative design tool integration, and cross-team design consistency.
-
 ## File Structure
 
 ```
@@ -40,7 +34,3 @@ Centralized resource for design system documentation, brand-compliant prototypin
 ├── nyt-tachyons/            # Atomic CSS framework
 └── prompts/                 # Example prompts for generative design tools
 ```
-
-## Contributing
-
-This repository contains official NYT brand assets and design tokens. Ensure modifications align with brand guidelines and design system standards.
