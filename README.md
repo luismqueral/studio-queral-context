@@ -1,7 +1,9 @@
-# Generative Design Context
-
 <div align="center">
 <img src="images/HYPERCARD%20GRAPHICS%20PACK%20UPSCALED/ODDS%20AND%20ENDS/Odds22.png" alt="HyperCard Graphic" width="250">
+</div>
+
+<div align="center">
+<strong>generative design context</strong>
 </div>
 
 > ⚠️ This is an experimental repository used for interactive sketches and prototypes. Do NOT use this for production.
