@@ -16,4 +16,12 @@ Use the NYT design system assets from this repository as needed.
 
 The strategies work particularly well when you're stuck, need fresh perspective, or want to push beyond obvious solutions. They're designed to unlock creative thinking that conventional approaches might miss.
 
-💡 **Pro Tip:** The most powerful insights often come from strategies that initially seem unrelated to your problem. Don't overthink the selection—trust your intuition.
+### Random Strategy Selection
+
+For broader exploration, try this approach in Cursor's "ask" mode:
+
+```
+Select 5 random strategy files from the prompts/strategies/ folder and read their contents. Then apply each strategy to [describe your project] and give me distinct perspectives on how to approach this challenge.
+
+Use the NYT design system assets from this repository as needed.
+```
