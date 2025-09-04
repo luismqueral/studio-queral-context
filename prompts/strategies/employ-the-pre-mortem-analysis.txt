@@ -1,0 +1,8 @@
+Imagine it's a future point in time, and this project or initiative has failed catastrophically. Conduct a 'pre-mortem.'
+
+Work backward from this hypothetical failure:
+*   What were all the plausible reasons for this failure?
+*   Which potential weaknesses, overlooked risks, or flawed assumptions contributed?
+*   Be brutally honest and specific.
+
+Now, return to the present. What proactive steps can you take *today* to mitigate the most significant risks identified in your pre-mortem? Strengthen your defenses before the battle.

@@ -1,0 +1,7 @@
+Analyze this situation using game theory principles from political science, examining how strategic interactions shape outcomes when decisions depend on others' choices.
+
+*   What type of 'game' is this—zero-sum, positive-sum, prisoner's dilemma, chicken, or stag hunt?
+*   What are the payoff structures for different combinations of choices?
+*   How might you alter incentives, signal commitments, or build trust to achieve better equilibrium?
+
+Detail how this mathematical approach to strategic interaction might reveal optimal strategies when dealing with rational actors pursuing their own interests.

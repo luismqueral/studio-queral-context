@@ -1,0 +1,9 @@
+Often, we seek to simplify. Instead, consider John Gall's principle: 'A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.'
+
+However, sometimes problems are *over-simplified*. Is your current understanding or proposed solution *too* simple for the reality of the situation? 
+
+*   Where might necessary complexity be ignored or wished away?
+*   What 'messy' but crucial elements are being excluded for neatness?
+*   How might embracing a degree of 'sufficient complication' lead to a more robust and realistic approach?
+
+Identify one area where a more complex view is needed.

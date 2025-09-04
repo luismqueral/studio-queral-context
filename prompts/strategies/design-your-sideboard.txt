@@ -1,0 +1,5 @@
+Consider the primary challenges or 'opponent archetypes' this project might face (e.g., resource scarcity, shifting requirements, technical hurdles, stakeholder skepticism).
+
+Develop a 'sideboard' of 3-5 alternative tactics, tools, or approaches you could swap in if your main strategy proves ineffective.
+
+How does preparing these contingencies increase your project's resilience and adaptability? Always have a plan B (and C, and D).
