@@ -1,5 +1,5 @@
 <div align="center">
-<img src="images/HYPERCARD%20GRAPHICS%20PACK%20UPSCALED/MAC%20SYSTEM/34.png" alt="HyperCard Graphic" width="150">
+<img src="images/hypercard-graphics/mac-system/34.png" alt="HyperCard Graphic" width="150">
 </div>
 
 <br>
