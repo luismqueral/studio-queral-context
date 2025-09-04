@@ -14,10 +14,10 @@ You'll also find brand assets and logos for maintaining consistency across proje
 
 Download the repository as a zip file and take what you need for your interactive project. For example:
 
-- Copy fonts from the `fonts/` directory for custom typography in your web app
-- Use design tokens from `misc tokens/` to maintain consistent colors and spacing
-- Reference the NYT logo from `logos/` for branded headers or footers  
-- Import the Tachyons CSS framework from `nyt-tachyons/` for rapid styling
+- Copy fonts from the `css/fonts/` directory for custom typography in your web app
+- Use design tokens from `css/tokens/` to maintain consistent colors and spacing
+- Reference the NYT logo from `misc/logos/` for branded headers or footers  
+- Import the Tachyons CSS framework from `css/nyt-tachyons/` for rapid styling
 
 ### Contributing
 
