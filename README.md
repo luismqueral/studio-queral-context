@@ -10,11 +10,11 @@ The goal is to help you generative "Times-ian" artifacts without the aggrevation
 
 ### How do I use this?
 
-If you're using _Cursor_, just download this project as a `.zip`, open the extracted folder in Cursor, and start building your project. It's worth checking out the included `.cursorrule` to better understand the system prompt.
+If you're using _Cursor_, just download this project as a `.zip`, open the extracted folder in Cursor, and start building your project. A `.cursorrules` system prompt is provided by default, it's worth checking that out to see if it works for your project. Modify it as needed.
 
-If you're using _v0_, you can upload specific assets in the project settings.
+If you're using _v0_, you'll need to upload specific assets in the project settings.
 
-With both tools, its helpful to be deliberate and selective about the context that you wish to add. It also helps to remove context that you probably won't need to avoid overwhelming the LLM.
+💡 **Pro Tip:** It's helpful to be _deliberate_ and _selective_ about the context that you wish to add. Remove context that you probably won't need to avoid overwhelming the LLM.
 
 
 ### Featured Assets
