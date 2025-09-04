@@ -1,6 +1,8 @@
 # Changelog
 
 2024-12-20
+- upscaled entire HyperCard graphics library (852 images) using nearest-neighbor filtering to preserve crisp pixel art quality - created HYPERCARD GRAPHICS PACK UPSCALED directory with 300% scaled versions
+- updated README to use upscaled HyperCard graphics for better display quality without blur
 - added HyperCard graphics to README for visual interest - placed Odds41.png at the top and Odds22.png in the Design Tokens section
 - simplified README by removing verbose sections and making disclaimer more direct - removed Usage and Contributing sections
 - updated disclaimer to reflect experimental nature of generative design tools and clarify usage for sketches and prototypes only
