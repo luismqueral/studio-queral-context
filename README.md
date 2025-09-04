@@ -1,4 +1,4 @@
-# Generative Product Design Context
+# Generative Design Context
 
 > ⚠️ This is an experimental repository used for interactive sketches and prototypes. Do NOT use this for production.
 
