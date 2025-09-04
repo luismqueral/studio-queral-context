@@ -1,5 +1,5 @@
 <div align="center">
-<img src="images/HYPERCARD%20GRAPHICS%20PACK%20UPSCALED/MAC%20SYSTEM/34.png" alt="HyperCard Graphic" width="250">
+<img src="images/HYPERCARD%20GRAPHICS%20PACK%20UPSCALED/MAC%20SYSTEM/34.png" alt="HyperCard Graphic" width="200">
 </div>
 
 `gen-design-context` is a starter kit for interactive artifacts at The New York Times. It is intended to be used with LLMs and generative coding platforms like [Cursor](https://cursor.sh) and [v0](https://v0.dev).
