@@ -1,4 +1,0 @@
-Analyze via classic game theory (e.g., Prisoner's Dilemma, Stag Hunt).
-Focus on how individual and collective interests interact strategically.
-
-What incentive structures might be generating current behaviors? Detail how mathematical theory might reveal strategic dynamics driving surface decisions. What are the hidden payoffs?

@@ -1,8 +1,0 @@
-Jane Jacobs emphasized that a diversity of active uses and a high degree of transparency ('eyes on the street') contribute to urban safety and vibrancy by ensuring natural surveillance and a sense of community ownership.
-
-In your project or system, how can you increase 'eyes on the street'?
-*   Where are processes opaque, hidden, or unobserved, potentially leading to errors, neglect, or a lack of accountability?
-*   How can you make work more visible, progress more transparent, and involve more people (even passively) in observing the 'health of the street'?
-*   Could introducing more 'mixed-use' (diverse perspectives involved in different stages) improve oversight and engagement?
-
-How can you increase transparency and shared awareness to foster a healthier, more accountable environment?

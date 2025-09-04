@@ -1,5 +1,0 @@
-Analyze as if performing a Fourier transform: decompose complex patterns into constituent frequency components.
-
-What fundamental frequencies might underlie complex behaviors?
-
-Detail how mathematical analysis could reveal simple, underlying patterns within apparently complicated phenomena. What are the basic waves in the noise?

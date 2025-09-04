@@ -1,9 +1,0 @@
-Imagine a future state where this challenge has been successfully resolved or this goal perfectly achieved. This success is now a historical 'artifact.'
-
-Reverse engineer it:
-*   What key components make up this successful outcome?
-*   What processes must have led to its creation?
-*   What were the critical design choices or breakthroughs?
-*   What 'materials' (resources, knowledge, support) were essential?
-
-Working backward from this ideal future artifact, what steps become clear for its initial construction today?

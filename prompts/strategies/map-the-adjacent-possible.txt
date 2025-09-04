@@ -1,8 +1,0 @@
-The 'adjacent possible' (a concept from Stuart Kauffman) refers to the set of all things (ideas, technologies, solutions) that are one step away from the current state. Innovation often happens by exploring these nearby, accessible next steps.
-
-Identify the current, stable state of this situation.
-
-*   What are all the 'first-order' changes or combinations that are immediately feasible?
-*   Which of these adjacent possibilities, if explored, might open up an entirely new set of adjacent possibilities in turn?
-
-Focus not on a distant goal, but on strategically exploring the richest paths within the adjacent possible. What's the most promising next 'door' to open?

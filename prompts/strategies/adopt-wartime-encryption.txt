@@ -1,5 +1,0 @@
-Consider this through wartime cryptography: vital information concealed from adversaries, yet decipherable by allies.
-
-What might be hidden in plain sight? What are the codes and ciphers at play?
-
-Detail how historical encryption techniques might reveal patterns of concealment and disclosure. What messages are encoded here?

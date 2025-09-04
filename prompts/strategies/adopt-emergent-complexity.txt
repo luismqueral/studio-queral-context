@@ -1,4 +1,0 @@
-Identify the simplest rules or interactions that could generate the complex patterns observed.
-How might complexity emerge from simplicity through iteration (like a flock of birds from a few simple rules)?
-
-Describe how focusing on generative rules, rather than end results, might reveal essential dynamics. Find the simple rules behind the complexity.
