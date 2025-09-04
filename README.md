@@ -10,7 +10,7 @@ The goal is to help you quickly make NYT-feeling artifacts without the aggrevati
 
 ### How do I use this?
 
-If you're using _Cursor_, just download this project as a `.zip`, open the extracted folder in Cursor, and start building your project. A `.cursorrules` system prompt is provided by default, it's worth checking that out to see if it works for your project. Modify it as needed.
+If you're using _Cursor_, just download this repo as a `.zip`, open the extracted folder in Cursor, and start building your project. A `.cursorrules` system prompt is provided by default, it's worth checking that out to see if it works for your project. Modify it as needed.
 
 If you're using _v0_, you'll need to upload specific assets in the project settings.
 
