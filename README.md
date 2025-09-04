@@ -13,6 +13,9 @@ The goal is to help you generative "Times-ian" artifacts without the aggrevation
 If you're using _Cursor_, just download the .zip , open the folder in Cursor, and start building your project.
 
 If you're using _v0_, you can upload specific assets in the project settings.
+
+### Featured Assets
+`[coming soon]`
   
 ### Contributing
 Feel free to open a pull request with any other assets you'd like to add.
