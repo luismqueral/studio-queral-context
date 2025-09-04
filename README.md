@@ -13,7 +13,4 @@ If you're using _Cursor_, just download the .zip , open the folder in Cursor, an
 If you're using _v0_, you can upload specific assets in the project settings.
   
 ### Contributing
-
-Anyone is free to contribute to this library! If you have design assets, improvements to existing tokens, or new components that would benefit the NYT design community, we'd love to hear from you.
-
-Please submit an issue first to discuss your proposed changes, then feel free to open a pull request. This helps ensure contributions align with the project goals and maintain consistency across the design system.
+Feel free to open a pull request with any other assets you'd like to add.
