@@ -1,6 +1,6 @@
 # Generative Design Context
 
-![HyperCard Graphic](images/HYPERCARD%20GRAPHICS%20PACK/ODDS%20AND%20ENDS/Odds41.png)
+<img src="images/HYPERCARD%20GRAPHICS%20PACK/ODDS%20AND%20ENDS/Odds41.png" alt="HyperCard Graphic" width="200">
 
 > ⚠️ This is an experimental repository used for interactive sketches and prototypes. Do NOT use this for production.
 
@@ -17,7 +17,7 @@
 - Size tokens for consistent spacing and sizing scales
 - Semantic color definitions for UI states
 
-![Design Elements](images/HYPERCARD%20GRAPHICS%20PACK/ODDS%20AND%20ENDS/Odds22.png)
+<img src="images/HYPERCARD%20GRAPHICS%20PACK/ODDS%20AND%20ENDS/Odds22.png" alt="Design Elements" width="150">
 
 ### Brand Assets
 - Official New York Times logo in SVG format
