@@ -6,7 +6,9 @@
 <strong>generative design context</strong>
 </div>
 
-> ⚠️ This is an experimental repository used for interactive sketches and prototypes. Do NOT use this for production.
+<div align="center">
+<em>a starter kit for styling interactive artifacts</em>
+</div>
 
 ## Contents
 
