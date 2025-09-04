@@ -2,7 +2,9 @@
 <img src="images/HYPERCARD%20GRAPHICS%20PACK%20UPSCALED/ODDS%20AND%20ENDS/Odds22.png" alt="HyperCard Graphic" width="250">
 </div>
 
-`gen-design-context` is a starter kit for interactive artifacts at The New York Times. It includes our complete typography collection with proprietary fonts like Cheltenham, Franklin, Karnak, and Imperial, along with design tokens for colors, spacing, and semantic UI states.
+`gen-design-context` is a starter kit for interactive artifacts at The New York Times. It is intended to be used with LLMs and generative coding platforms like [Cursor](https://cursor.sh) and [v0](https://v0.dev).
+
+It includes our complete typography collection along with design tokens for colors, spacing, and semantic UI states.
 
 You'll also find brand assets and logos for maintaining consistency across projects.
 
