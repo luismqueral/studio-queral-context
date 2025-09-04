@@ -4,7 +4,7 @@
 
 <br>
 
-`gen-design-context` is an framework-agnostic design asset library intended to be used for generative, interactive prototyping with tools like [Cursor](https://cursor.sh) and [v0](https://v0.dev).
+`gen-design-context` is an framework-agnostic, NYT design asset library for generative, interactive prototyping. It's intended to be used alongside tools like [Cursor](https://cursor.sh) and [v0](https://v0.dev).
 
 The goal is to help you quickly make NYT-feeling artifacts without the aggrevation of starting from scratch.
 
