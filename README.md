@@ -1,7 +1,7 @@
 # Generative Design Context
 
 <div align="center">
-<img src="images/HYPERCARD%20GRAPHICS%20PACK%20UPSCALED/ODDS%20AND%20ENDS/Odds41.png" alt="HyperCard Graphic" width="200">
+<img src="images/HYPERCARD%20GRAPHICS%20PACK%20UPSCALED/ODDS%20AND%20ENDS/Odds22.png" alt="HyperCard Graphic" width="250">
 </div>
 
 > ⚠️ This is an experimental repository used for interactive sketches and prototypes. Do NOT use this for production.
@@ -20,7 +20,7 @@
 - Semantic color definitions for UI states
 
 <div align="center">
-<img src="images/HYPERCARD%20GRAPHICS%20PACK%20UPSCALED/ODDS%20AND%20ENDS/Odds22.png" alt="Design Elements" width="200">
+<img src="images/HYPERCARD%20GRAPHICS%20PACK%20UPSCALED/ODDS%20AND%20ENDS/Odds41.png" alt="Design Elements" width="200">
 </div>
 
 ### Brand Assets
