@@ -4,41 +4,18 @@
 
 <br>
 
-`gen-design-context` is a starter kit for interactive artifacts at The New York Times. It is intended to be used with LLMs and generative coding platforms like [Cursor](https://cursor.sh) and [v0](https://v0.dev).
+`gen-design-context` is a starter kit for interactive artifacts at *The New York Times*. It is intended to be used with LLMs and generative coding platforms like [Cursor](https://cursor.sh) and [v0](https://v0.dev).
 
 It includes our complete typography collection along with design tokens for colors, spacing, and semantic UI states.
 
 You'll also find brand assets and logos for maintaining consistency across projects.
 
-## Contents
+### How do I use this?
 
-### Typography
-- NYT font collection with complete set of proprietary typefaces including Cheltenham, Franklin, Karnak, and Imperial
-- Web-optimized font files in WOFF, WOFF2, TTF, EOT, and SVG formats
-- Multiple weights and styles for each typeface family
+Download the repository as a zip file and take what you need for your interactive project. For example:
 
-### Design Tokens
-- Color tokens for light and dark themes
-- Typography tokens with font size, line height, and spacing definitions
-- Size tokens for consistent spacing and sizing scales
-- Semantic color definitions for UI states
-
-### Brand Assets
-- Official New York Times logo in SVG format
-- Brand guidelines and usage documentation
-- UX principles and design guidelines
-
-### Styling Framework
-- NYT Tachyons atomic CSS framework
-- Pre-built utility classes for rapid prototyping
-
-## File Structure
-
-```
-├── fonts/                    # NYT typeface collection
-├── logos/                    # Brand logos and icons
-├── misc context/             # Brand guidelines and UX documentation
-├── misc tokens/              # Design token definitions
-├── nyt-tachyons/            # Atomic CSS framework
-└── prompts/                 # Example prompts for generative design tools
-```
+- Copy fonts from the `fonts/` directory for custom typography in your web app
+- Use design tokens from `misc tokens/` to maintain consistent colors and spacing
+- Reference the NYT logo from `logos/` for branded headers or footers  
+- Grab HyperCard graphics from `images/` to add retro flair to prototypes
+- Import the Tachyons CSS framework from `nyt-tachyons/` for rapid styling
