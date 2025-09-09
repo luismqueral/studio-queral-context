@@ -1,0 +1,63 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# SwiftUI Development Guidelines
+
+## Expertise and Code Quality
+- Expert-level Swift and SwiftUI development
+- Focus on latest August/September 2024 documentation and features
+- Write clean, maintainable, and efficient code
+- Keep descriptions short and concise
+- Preserve all existing comments
+
+## UI Design Rules
+
+### Components
+- Use native SwiftUI elements (List, NavigationView, TabView, SF Symbols)
+
+### Layout
+- Utilize VStack, HStack, ZStack for view composition
+- Use Spacer and Padding for proper spacing
+- Implement LazyVGrid and LazyHGrid for grid layouts
+- Use GeometryReader for dynamic layouts
+
+### Visual Enhancements
+- Implement shadows, gradients, and blurs thoughtfully
+- Use custom shapes where appropriate
+- Add smooth animations for state changes
+
+### Interaction
+- Include meaningful gestures
+- Provide haptic feedback
+- Ensure clear navigation
+- Make elements responsive
+
+### Accessibility (Critical)
+- ALWAYS use Label instead of accessibilityLabel for buttons with icons
+  ```swift
+  // ✅ Do this:
+  Button(action: { }) {
+      Label("Star button", systemImage: "star.fill")
+          .labelStyle(.iconOnly)
+  }
+
+  // ❌ Don't do this:
+  Button(action: { }) {
+      Image(systemName: "star.fill")
+  }
+  .accessibilityLabel("Star button")
+  ```
+- Support Dynamic Type for all text elements
+- Ensure sufficient color contrast
+- Provide meaningful VoiceOver labels
+
+## Commands
+- When asked to "lint": Run `../Scripts/lint.sh`
+
+## Code Style
+- Use explicit closure syntax for buttons with multiple closures (action and label)
+- Follow SwiftLint rules for consistent code style
+- Keep line length under 120 characters
+- Use proper accessibility labels and modifiers

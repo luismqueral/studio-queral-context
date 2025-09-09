@@ -1,0 +1,160 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# View Organization and Template Usage Guidelines
+
+## View Organization Rules
+
+### Component Location and Structure
+
+When creating new views, ALWAYS add them to /CursorZone. The file should be named after the view component. If several views are required, make a directory inside /CursorZone.
+
+#### Example Structure:
+```
+Example/
+├── Button/
+├── Dialog/
+├── CursorZone/
+│   └── MyNewView.swift
+│   └── MyNewView2/
+│       └── MyNewView2.swift
+```
+
+This organization helps maintain a clean, modular codebase where each component is self-contained and easily locatable.
+
+## Times Product Language (TPL) Usage
+
+TPL is the New York Times' design system. It contains components, tokens, and tools for creating accessible and brand-approved UI.
+
+1. ALWAYS Prioritize TPL Components
+   - Before creating new components, check if a TPL component exists that meets your needs
+   - Use TPL components as the foundation for new components whenever possible
+   - Extend TPL components rather than creating duplicates
+
+2. ALWAYS use TPL Tokens for text, color, and spacing.
+
+This emphasis on TPL usage ensures consistency across the application, reduces duplication, and maintains a high standard of component quality.
+
+## Template Usage Rules
+
+When creating new screens, follow these guidelines:
+
+### Template Selection Process
+
+1. When a user requests to create a new screen:
+   - Check the contents of the `Templates` directory
+   - Choose the most appropriate template based on requirements
+   - Proceed directly with implementation using the chosen template
+   - DO NOT ask if users want to customize the template
+   - Let users drive any customization requests
+
+### Template Directory Structure
+
+```
+Example/
+├── Templates/
+│   ├── Template1.swift  // Basic blue square template
+│   ├── Template2.swift  // Basic green square template
+│   ├── Template3.swift  // Basic yellow square template
+│   └── [Additional templates]  // Add new templates here
+└── CursorZone/
+    └── [Your new screens]
+```
+
+### Example Usage
+
+```swift
+// Using a template as a base
+struct NewScreen: View {
+    var body: some View {
+        Template1()  // or any other template
+        // Add additional components here
+    }
+}
+```
+
+### Response Examples
+
+✅ Good:
+"I'll create a new screen using Template1 which provides a centered blue square layout..."
+
+❌ Bad:
+"Would you like to customize Template1? We could change the color or size..."
+
+### Best Practices
+
+1. Choose the most appropriate template based on the user's requirements
+2. Keep templates in the root `Templates` directory
+3. Each template should serve a specific use case
+4. Make the initial implementation an exact copy of the template
+5. Templates should be minimal and flexible for customization
+6. Document the purpose of each template in comments
+7. Let users drive any customization requests
+
+# Template Selection Process Rules
+
+## User Interaction Requirements
+
+1. ALWAYS Ask for Template Selection First
+   - When a user requests to create a new screen, FIRST ask which template they want to use
+   - List available templates with their descriptions
+   - Wait for user selection before proceeding with implementation
+   - Do not make assumptions about which template to use
+   - Do not proceed with implementation until user explicitly selects a template
+
+2. Template Description Format
+   When presenting template options, use this format:
+   ```
+   Available templates:
+   
+   1. Template1: Basic blue square template
+   2. Template2: Basic green square template
+   3. Template3: Basic yellow square template
+   ```
+
+3. Template Selection Query Format
+   Use this exact phrasing:
+   "Which template would you like to use? Please specify by number (1-3)."
+
+4. After Selection Process
+   - Once user selects a template, proceed with implementation
+   - Use the selected template exactly as is for initial implementation
+   - Allow user to drive any customization requests
+
+## Template Directory Structure
+
+```
+Example/
+├── Templates/
+│   ├── Template1.swift  // Basic blue square template
+│   ├── Template2.swift  // Basic green square template
+│   ├── Template3.swift  // Basic yellow square template
+│   └── [Additional templates]  // Add new templates here
+└── CursorZone/
+    └── [Your new screens]
+```
+
+## Response Examples
+
+✅ Correct Response:
+"I see you want to create a new screen. Let me show you the available templates:
+
+Available templates:
+
+1. Template1: Basic blue square template
+2. Template2: Basic green square template
+3. Template3: Basic yellow square template
+
+Which template would you like to use? Please specify by number (1-3)."
+
+❌ Incorrect Response:
+"I'll create a new screen using Template1..."
+
+## Implementation Rules
+
+1. Always place new screens in the CursorZone directory
+2. Use exact template code for initial implementation
+3. Let users drive customization requests
+4. Follow TPL guidelines for any modifications

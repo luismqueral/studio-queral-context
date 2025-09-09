@@ -1,0 +1,168 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# TPL Story List
+
+TPL Story List is a powerful SwiftUI component for building highly polished, accessible collections of articles and other content. It provides a set of composable views that work together to create beautiful article lists with consistent styling and layout.
+
+## Core Components
+
+The Story List system consists of several key components:
+
+1. `TPLStoryList` - The main container view that manages the collection
+2. `TPLStoryListItem` - Individual items within the list
+3. `TPLStoryListItemContent` - Content layout for each item
+4. `TPLStoryListSection` - Optional grouping of items
+5. `TPLStoryListHeader` - Headers for sections
+
+## Basic Usage
+
+Here's a simple example of how to create a basic story list:
+
+```swift
+import SwiftUI
+import TPLStoryList
+
+struct MyStoryList: View {
+    var body: some View {
+        ScrollView {
+            TPLStoryList {
+                TPLStoryListItem {
+                    TPLStoryListItemContent {
+                        Text("Article Title")
+                    } topLabel: {
+                        Text("Category")
+                    } summary: {
+                        Text("Article summary text goes here")
+                    }
+                }
+            }
+        }
+    }
+}
+```
+
+## Media Support
+
+Story List items can include media (like images) with various positioning options:
+
+```swift
+TPLStoryListItem(mediaPosition: .trailing) {
+    TPLStoryListItemContent {
+        Text("Article Title")
+    }
+} media: {
+    Image(...)
+        .resizable()
+        .aspectRatio(1, contentMode: .fit)
+        .frame(width: 95)
+}
+```
+
+### Media Position Options
+
+- `.top(fullBleed: Bool)` - Media above content
+- `.leading` - Media on the left
+- `.trailing` - Media on the right
+- `.posterTop` - Full-width media above with overlay content
+- `.posterBottom` - Full-width media below with overlay content
+
+## Sections and Headers
+
+You can organize items into sections:
+
+```swift
+TPLStoryList {
+    TPLStoryListSection {
+        // Items in section
+    } header: {
+        Text("Section Title")
+    }
+}
+```
+
+## Styling
+
+Story List supports customization through `TPLStoryListStyle`:
+
+```swift
+TPLStoryList {
+    // List content
+}
+.tplStoryListStyle(.init {
+    $0.alignment = .center
+    $0.multilineTextAlignment = .center
+    $0.sectionDivider = .secondary
+    $0.itemDivider = nil
+    $0.outerPaddingHorizontal = .tpl.spacing3
+})
+```
+
+### Customizable Style Properties
+
+- `alignment` - Content alignment
+- `multilineTextAlignment` - Text alignment for multiline content
+- `outerPaddingHorizontal` - Horizontal padding
+- `sectionDivider` - Divider style between sections
+- `itemDivider` - Divider style between items
+- `sectionSpacing` - Spacing between sections
+- `itemContentMediaSpacing` - Spacing between content and media
+- `itemActionsSpacing` - Spacing for action buttons
+
+## Best Practices
+
+1. Always wrap `TPLStoryList` in a `ScrollView`
+2. Use appropriate media sizing for different positions
+3. Consider using sections for better content organization
+4. Customize styling at the appropriate scope level
+
+## Example with All Features
+
+```swift
+ScrollView {
+    TPLStoryList {
+        TPLStoryListItem(mediaPosition: .top(fullBleed: true)) {
+            TPLStoryListItemContent {
+                Text("Featured Article")
+                    .typography(.tpl.headlineFeature28)
+            } topLabel: {
+                Text("Featured")
+            } summary: {
+                Text("Featured article summary")
+            }
+        } media: {
+            Image(...)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+        }
+        
+        TPLStoryListSection {
+            TPLStoryListItem {
+                TPLStoryListItemContent {
+                    Text("Regular Article")
+                } topLabel: {
+                    Text("Category")
+                } summary: {
+                    Text("Article summary")
+                }
+            } media: {
+                Image(...)
+                    .resizable()
+                    .aspectRatio(1, contentMode: .fit)
+                    .frame(width: 95)
+            }
+        } header: {
+            Text("Section Title")
+        }
+    }
+    .tplStoryListStyle(.init {
+        $0.alignment = .leading
+        $0.sectionDivider = .primary
+    })
+}
+```
+
+
+
