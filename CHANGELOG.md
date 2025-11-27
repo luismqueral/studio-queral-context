@@ -1,5 +1,14 @@
 # Changelog
 
+2025-11-26
+- restructured repository as personal starter kit, removing NYT-specific assets - deleted Cheltenham, Franklin, Karnak, Imperial, and all NYT font families to focus on personal/experimental typefaces only
+- removed NYT design tokens (color primitives, semantic colors, typography tokens) and Tachyons framework - simplified CSS to custom.css and tachyons-ext.css for more flexible styling approach
+- removed prompts directory and strategy cards - consolidated cursor rules into .cursor/rules/ directory for better organization
+- updated README to describe project as personal starter kit for Cursor-based prototyping rather than NYT-focused generative design context
+- removed v0 references from documentation, focusing exclusively on Cursor workflow
+- removed Quick Access section from README for cleaner, more streamlined documentation
+- moved strategies.md from prompts/ to misc/ directory to preserve creative thinking framework outside of main workflow
+
 2024-12-20
 - upscaled entire HyperCard graphics library (852 images) using nearest-neighbor filtering to preserve crisp pixel art quality - created HYPERCARD GRAPHICS PACK UPSCALED directory with 300% scaled versions
 - updated README to use upscaled HyperCard graphics for better display quality without blur

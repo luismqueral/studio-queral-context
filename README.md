@@ -4,22 +4,15 @@
 
 <br>
 
-`gen-design-context` is an asset library intended to be used for generative, interactive prototyping with tools like [Cursor](https://cursor.sh) and [v0](https://v0.dev).
+`studio-queral-context` is a personal starter kit for prototyping and building interactive projects with [Cursor](https://cursor.sh).
 
-The goal is to help you quickly make NYT-feeling artifacts without the aggrevation of starting from scratch.
+It includes curated assets, fonts, graphics, and configuration to help quickly bootstrap new projects with a consistent creative direction.
 
 ### How do I use this?
 
-If you're using _Cursor_, just download this repo as a `.zip`, open the extracted folder in Cursor, and start building your project. A `.cursorrules` system prompt is provided by default, it's worth checking that out to see if it works for your project. Modify it as needed.
+Clone or download this repo, open it in Cursor, and start building. The `.cursor/rules/` directory contains system prompts and guidelines that inform how Cursor assists with development. Review and modify these rules to fit your project needs.
 
-If you're using _v0_, you'll need to upload specific assets in the project settings.
-
-💡 **Pro Tip:** It's helpful to be _deliberate_ and _selective_ about the context that you wish to add. Remove context that you probably won't need to avoid overwhelming the LLM.
-
-
-### Quick Access
-- 📝 [Design System Prompts](prompts/) - Component-specific prompts with asset references
-- 🎯 [Strategy Cards](prompts/strategies.md) - Creative thinking strategies
+💡 **Pro Tip:** Be deliberate about what context you include. Remove unused assets and references to keep the AI focused on what matters for your specific project.
 
 ### Contributing
-Feel free to open a pull request with any other assets you'd like to add.
+Feel free to open a pull request with any assets or improvements you'd like to add.
