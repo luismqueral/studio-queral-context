@@ -1,0 +1,181 @@
+---
+description: Luis's Next.js/React Project Rules (Condensed)
+alwaysApply: True
+---
+# Next.js/React Project Rules
+
+## Mission
+- Expert assistant for Luis Queral (designer & hypermedia artist)
+- Senior engineer capabilities: TypeScript, React, Next.js, Tailwind, Shadcn UI, Radix UI
+- User is a product designer, not professional engineer - explain clearly, comment thoroughly
+
+## Code Structure
+- All new JavaScript files use TypeScript
+- Follow existing codebase patterns consistently
+- Lowercase-with-dashes for directories: `components/auth-wizard`
+- Structure: exported components, subcomponents, helpers, static content, types
+
+## Naming & Syntax
+- Descriptive variable names with auxiliary verbs: `isLoading`, `hasError`, `canSubmit`
+- Functions: `const functionName = () => {}`
+- Define types where reasonable
+- Early returns for readability
+- PascalCase: classes | camelCase: variables, functions, methods | UPPERCASE: constants, env vars
+- **Prioritize thorough code comments** - err on side of more explanation. Comment the "why" behind decisions
+- Preserve curly quotes in strings
+- Group types/interfaces at top below imports
+- Remove unnecessary type assertions and parentheses
+- Sort imports: external → internal → types
+- **Console statements**: Remove debugging console.logs. Preserve intentional logging (server actions, API routes, error tracking)
+- **Always use named exports, never default exports** - consistency, better autocomplete, easier refactoring
+
+## React & Next.js
+- Functional components only
+- React 19 features, minimize state/effects
+- Minimize `'use client'` - favor React Server Components (RSC)
+- Dynamic imports for code splitting
+- Next.js Image component for optimization
+- Server actions for data mutations
+- Proper loading states with Suspense boundaries
+- Responsive, mobile-first design
+- Optimize images: WebP, size data, lazy loading
+
+## UI & Styling
+- Tailwind CSS utility-first approach
+- Shadcn UI and Radix UI for accessible components
+- Consistent design patterns, mobile-first responsive
+- Proper contrast ratios, WCAG 2.1 AA minimum
+- Semantic HTML, proper ARIA attributes
+
+## State & Data Fetching
+- Zustand/Jotai for global state when needed
+- Prefer RSC and Next.js data fetching
+- TanStack Query for complex client-side fetching
+- Zod for validation and type safety
+- Keep client-side state minimal and colocated
+
+## Error Handling
+- Prioritize error handling and edge cases
+- Early returns for error conditions
+- Guard clauses for preconditions
+- Custom error types or Zod
+- Clear, user-friendly error messages
+- Next.js error boundaries
+
+## Security & Performance
+- Validate and sanitize user inputs (prevent XSS/injection)
+- Environment variables for sensitive data
+- Reduce bundle size (code splitting)
+- Optimize Web Vitals: LCP, CLS, FID, INP
+- Next.js security features (CSRF protection, secure headers)
+
+## Testing
+- **Testing requirements**:
+  - Include tests for: components with complex logic/multiple states, utility functions with edge cases, API routes and server actions
+  - Defer tests for: simple presentational components (<20 lines), rapid prototyping/WIP, iteration based on design feedback
+  - Use Jest and React Testing Library
+- Integration tests for critical user flows
+
+## Development Process
+- Follow user requirements carefully
+- **Planning**: Complex multi-file changes - describe plan first. Simple tasks (<3 files, obvious) - proceed directly. Unsure - ask
+- Make complete changes across files - no TODOs or placeholders
+- Concise technical responses with accurate TypeScript examples
+- JSDoc comments for IDE intellisense
+
+### Methodology
+1. Deep Dive Analysis - requirements and constraints
+2. Planning - architectural structure and flow
+3. Implementation - step-by-step, best practices
+4. Review and Optimize - look for improvements
+5. Finalization - ensure secure, performant, complete
+
+## Documentation & Comments
+
+### Code Comments
+- Explain "why" not just "what" - assume TypeScript basics known, not advanced patterns
+- Use analogies for complex concepts
+- Comment: async operations, LLM interactions, agentic loops, function calling
+- Include examples in comments
+- Explain trade-offs
+
+### Documentation Files
+1. **README.md** - Quick start, examples, API reference
+2. **docs/HOW-IT-WORKS.md** - Visual, plain-English explanations with analogies
+3. **docs/ARCHITECTURE.md** - Technical design decisions
+4. **docs/GLOSSARY.md** - Jargon explained simply
+
+**Critical**: Update documentation when changes are made
+
+### HOW-IT-WORKS.md Philosophy
+- Use analogies/metaphors. Refer to LLMs as "experts" not "interns"
+- Include visuals: diagrams, flow charts, ASCII art
+- Show real examples with annotations
+- Explain causation: "does X because Y"
+- Progressive detail: simple → complex
+- Avoid or immediately define jargon
+
+Structure: What it is (1 sentence) → Why it matters → Analogy → Technical → Example
+
+## Meta-Development Practices
+
+### Know When to Stop
+- Stop if task too complex or requires prerequisites - inform user
+- Alert on nondeterministic behavior or flaky tests
+- Recognize loops of unsuccessful fixes - pivot to structural changes
+
+### Code Organization
+- Careful about too many new files - consider rewriting
+- Follow "Rule of Three" - refactor when similar code in 3+ places
+- Use existing util files instead of creating new ones
+
+### Practical Considerations
+- Defer to auto-formatters (Prettier, ESLint, Biome) for style
+- **Linting**: Fix functional/type safety errors. Defer style-only to auto-formatters. Discuss architectural changes first
+- Ask questions for complex tasks
+- Search web for library documentation when needed
+- Don't suggest changes when no modifications needed
+- Verify information - no assumptions or speculation
+
+### Communication
+- **Avoid unnecessary apologies** - not for normal operations. Acknowledge genuine mistakes directly: "I misunderstood - let me correct that"
+- Don't invent changes beyond explicit requests
+- Be direct and clear
+
+## Automated Changelog
+
+Update `CHANGELOG.md` after code/architecture changes (see exceptions below).
+
+### Format
+```
+## YYYY-MM-DD
+### Branch: `branch-name`
+#### Category: Brief Impact Statement
+- detailed explanation (why + what)
+- mention files when helpful
+- quantifiable improvements (~40% faster)
+```
+
+**Categories**: ✨ Feature | 🐛 Fix | ♻️ Refactor | 🎨 UI/UX | 📦 Dependencies | ⚠️ Breaking | 📝 Docs
+
+**Branch Organization**:
+- Feature branches: `### Branch: feature/branch-name`
+- Merges: `### Branch: feature/branch-name → main (merged PR #123)`
+- Skip for: direct main commits, short-lived same-day branches, simple hotfixes
+
+**Writing**: Conversational tone, lowercase start, past tense, 1-2 lines per entry. Recent dates/changes at top.
+
+**Skip**: Dependency updates (no functional impact), formatting/linting/whitespace, debugging attempts, reverted changes, typo fixes in comments
+
+**Multi-Change Sessions**: Group under same date, separate branch sections, combine related changes
+
+**Conflicts**: If today's date exists, read entries, prepend new ones, update existing if related
+
+**Checklist**: Identify changes → read last 3-5 entries → determine branch → choose category → write → add at TOP → confirm
+
+**Quality Check**:
+- Would a colleague understand what changed and why?
+- Did I explain impact, not just implementation?
+- Is this meaningfully different from recent entries?
+- Would this help future-me understand project evolution?
+- Is branch context clear if working on multiple branches?

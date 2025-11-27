@@ -1,0 +1,87 @@
+/* Prevent scrollbar jitter between pages */
+html {
+  /* Increased base font size - all Tachyons typography scales from this */
+  font-size: 18px;
+  /* Modern approach - reserves space for scrollbar */
+  scrollbar-gutter: stable;
+  /* Fallback for older browsers - force scrollbar to always be visible */
+  overflow-y: scroll;
+}
+
+/* Code Block Styling */
+pre {
+  position: relative;
+  background-color: #f6f8fa !important;
+  border: 1px solid #d0d7de !important;
+  border-radius: 6px !important;
+  padding: 16px !important;
+  margin: 16px 0 !important;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !important;
+  font-size: 14px !important;
+  line-height: 1.45 !important;
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  box-shadow: none !important;
+}
+
+pre code {
+  color: #24292f !important;
+  background: none !important;
+  padding: 0 !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  text-shadow: none !important;
+}
+
+/* Inline code styles */
+.inline-code {
+  background-color: #f4f4f4;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.125rem;
+  font-size: 0.875rem;
+  font-family: Monaco, Menlo, "Ubuntu Mono", monospace;
+}
+
+/* Tag Pill Enhancement */
+.tag-pill {
+  text-decoration: none !important;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  text-transform: lowercase;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tag-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-decoration: none !important;
+}
+
+/* Random Logo Font Utilities */
+.font-comic { font-family: 'Comic Sans MS', cursive; }
+.font-blackletter { font-family: 'Lucida Blackletter', serif; }
+.font-times { font-family: 'Times New Roman', serif; font-size: 1.1em; }
+
+.font-galapagos { font-family: 'ABC Galapagos AB Grid Unlicensed Trial', sans-serif; }
+.font-inter { font-family: 'Inter', 'InterVariable', sans-serif; }
+
+/* IBM Plex classes */
+.font-ibm-plex-serif {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.ibm-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Custom max-width for homepage */
+.mw5-5 {
+  max-width: 30rem;
+}
+
